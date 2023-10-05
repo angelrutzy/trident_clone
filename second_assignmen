@@ -1,0 +1,8 @@
+A file path specifies the location of a file in a computer's file system structure. They can be used to locate files and web resources, like Media files, such as images , music, and videos.
+PATHS AND PATH SEPARATORS
+In general, a path is a string of characters which specifies a unique location in a directory or page hierarchy. For file systems, each level in the hierarchy is a directory. Different sections of the path are separated by a path separator, such as a forward slash (/). These different sections represent the separate directories or pages in the hierarchy, as shown below: 
+
+In this file path, the Documents file is inside the ANGEL directory. The ANGEL directory is a subdirectory of the Users directory, which is a subdirectory of the C: directory. File paths are one example of a path. Paths are also an important component of URLs.
+URLS AND FILE PATHS
+URLs specify the location where data and websites are hosted on the web. URLs and file paths both function similarly and provide the location a computer must go to find a particular resource. However, a major difference is that URLs locate resources which are hosted on the Internet, and file paths locate resources which are stored locally or on a local network.
+ 

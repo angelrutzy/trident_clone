@@ -1,0 +1,46 @@
+A DETAILED ARTICLE ON PUSHING A DIRECTORY TO GITHUB REPOSITORY
+Note: We are using Git Bash for this
+1. Locate the directory you want to push to GitHub and open it using git bash
+How to Open a directory using Git Bash:
+• I want to push the content of the directory “file_to_push” to GitHub
+• Open the directory you wish to push to GitHub
+• Left click in the background of the file and select Open Git Bash here
+
+
+ 
+This the environment of Git Bash
+
+2. List the content of the file using the command ls
+
+3. Set up your GitHub email and username using the command
+$ git config –global user.email “your email”
+$ git config –global user.name “your username”
+ 
+
+
+4. Use the command git init to create a new Git repository .git
+
+5. Type the command git status to display the current status of the local repository
+
+6. Type the command git add . to add all the files to be committed
+
+7. Type the command git commit –m “How to push a file to GitHub”
+
+8. Go to your GitHub account and create a repository with the same name with the directory you want to Push and copy Git URL
+1
+4
+3
+2
+
+
+
+ 
+9. Add the remote repository by typing the command git remote add origin https://github.com/lemonntec/file_to_push.git
+
+10. Type the command git branch -m main  
+
+11. Then use the command git push -u origin main
+ 
+
+12. Then, go to your GitHub account to see the files
+
