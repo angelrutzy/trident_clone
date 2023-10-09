@@ -1,0 +1,7 @@
+FINDING THE SQUARE ROOT OF A GIVEN NUMBER
+step 1: input two values 'a' and 'b' that are guarranteed to have the answer between them
+step2: sum the numbers (a+b)
+step3: divide the sum by 2
+step4: determine if the square of the number is greater or lower than the target number.
+step5: if greater than the target number, replace the lower number 'a', else replace the greater number 'b'
+step6: repeat from step1 - 5 until a the same number as the target number is obtained
